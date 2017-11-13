@@ -1,11 +1,11 @@
 baseurl: ""
-url: ryutechco.github.io
+url: www.ryutech.co.th
 # Site settings
 title: Ryutech
 email: sales@ryutech.co.th
 description: 
   en: "Welcome to Ryutech home page."
-  th: "ยินดีต้อนรับ"
+  th: "ยินดีต้อนรับสู่หน้าหลักริวเทค"
 index:
   en:
   th: index-th.html
