@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #caccce;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -864,4 +864,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.right {
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
