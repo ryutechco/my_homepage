@@ -871,3 +871,7 @@ body {
     width: 50%;
     text-align: center;
 }
+
+.en:lang(en), .th:lang(th){
+    font-weight: bold;
+}

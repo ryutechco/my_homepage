@@ -32,11 +32,14 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                    {% for page in pages %}
+                        <li>
+                            <a href="{{ page.url }}" class="{{ page.lang }} lang-select">{{ page.lang }}</a>
+                        </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

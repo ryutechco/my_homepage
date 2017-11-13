@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description[page.lang] }}">
     <!--<meta property="og:image" content="{{site.baseurl}}/img/about/2.jpg" />
     <meta property="og:image:secure_url" content="{{site.baseurl}}/img/about/2.jpg">
     -->
@@ -15,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/img/rt.ico"}>
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
