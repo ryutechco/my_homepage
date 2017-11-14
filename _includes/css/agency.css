@@ -877,3 +877,13 @@ body {
 .en:lang(en), .th:lang(th){
     font-weight: bold;
 }
+
+.text-left{
+    text-align: left;
+}
+
+.stresstext{
+    font-weight: bold;
+    font-style: italic;
+    color: #{{ site.data.template.color.primary }};
+}
