@@ -887,3 +887,8 @@ body {
     font-style: italic;
     color: #{{ site.data.template.color.primary }};
 }
+i {
+    font-weight: bold;
+    font-style: italic;
+    color: #{{ site.data.template.color.primary }};
+}
