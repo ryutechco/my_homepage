@@ -258,7 +258,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #caccce;
+        /*background-color: #caccce;*/
+        background-color: #a8aaad;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -340,7 +341,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -659,13 +660,13 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/map-contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #222;
 }
 
 section#contact .form-group {
@@ -867,7 +868,7 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-.right {
+.center {
     margin: auto;
     width: 50%;
     text-align: center;
