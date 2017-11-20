@@ -37,7 +37,7 @@
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
                         <li>
-                            <a href="{{ page.url }}" class="{{ page.lang }} lang-select">{{ page.lang }}</a>
+                            <a class="langselect" href="{{ page.url }}" class="{{ page.lang }} lang-select">{{ page.lang }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -51,9 +51,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">ยินดีต้อนรับสู่เว็บบริษัท</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">ดูรายละเอียด</a>
+                <div class="intro-lead-in">ยินดีต้อนรับสู่ริวเทค</div>
+                <div class="intro-heading">บริการรีแมพ ECU</div>
+                <a href="#ecuremap" class="page-scroll btn btn-xl">ดูรายละเอียด</a>
             </div>
         </div>
     </header>

@@ -243,6 +243,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        color: #222;
     }
 
     .navbar-default .navbar-brand {
@@ -923,4 +924,12 @@ section h3.section-contact {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+.thaifont{
+    font-size: 20px;
+}
+
+.langselect{
+    font-size: 12px;
 }

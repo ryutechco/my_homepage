@@ -1,0 +1,16 @@
+---
+title: Ford Focus 2013 MK3 2.0
+subtitle: Original 150 BHP Tuned 160 BHP
+layout: default
+modal-id: 1
+date: 2017-09-20
+img: ford_focus_1.jpg
+thumbnail: ford_focus_1_thumbnail.jpg
+alt: image-alt
+project-date: Sep 2017
+client: Kasidej
+category: OBD Remap
+categories: results
+description: Ford Focus 2013 MK 3 2.0 Ti-VCT Duratec. Gasoline E20. Original 150 BHP. Tuned 160 BHP.
+
+---

@@ -34,15 +34,13 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact us</a>
                     </li>
-                    <!--
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                    {% for page in pages %}
+                    {% for page in pages limit: 2%}
                         <li>
-                            <a href="{{ page.url }}" class="{{ page.lang }} lang-select">{{ page.lang }}</a>
+                            <a class="langselect" href="{{ page.url }}">{{ page.lang }}</a>
                         </li>
                     {% endfor %}
-                -->
-                </ul>
+                </ul> 
             </div>
             <!-- /.navbar-collapse -->
         </div>
